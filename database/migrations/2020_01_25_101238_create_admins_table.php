@@ -23,8 +23,8 @@ class CreateAdminsTable extends Migration
         });
 
         DB::table('admins')->insert([
-            'name' => 'Craig Hume',
-            'email' => 'craig@myquerytutor.com',
+            'name' => 'Admin User',
+            'email' => 'admin@myquerytutor.com',
             'password' => bcrypt('school1')
         ]);
     }
